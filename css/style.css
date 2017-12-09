@@ -1,0 +1,571 @@
+body
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #2e2e2e;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+{
+	margin: 0;
+	padding: 0;
+}
+.coloumn
+{
+	width: 1170px;
+	margin:0 auto;
+}
+.floatleft
+{
+	float: left
+}
+.floatright
+{
+	float: right;
+}
+.fix
+{
+	overflow: hidden;
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a
+{
+	color: #fff;
+}
+a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+.section_padding
+{
+	padding: 100px 0;
+}
+/*
+=================
+header area
+=================
+*/
+.header_area
+{
+	background: #2e2e2e;
+	min-height: 75px;
+}
+.header
+
+}
+.logo
+{
+	position: relative;
+}
+.logo img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.mainmenu
+{
+
+}
+.mainmenu ul#nav
+{
+	border-right: 1px solid #3a3a3a;
+}
+.mainmenu ul#nav li
+{
+	display: inline;
+}
+.mainmenu ul#nav li a
+{
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 25.5px 20px;
+	border-left: 1px solid #3a3a3a;
+	display: inline-block;
+}
+.mainmenu ul#nav li a:hover
+{
+
+}
+/*
+=================
+welcome text area
+=================
+*/
+.welcome_text_area
+{
+	background: url(../img/wc-bg.jpg) no-repeat scroll 0 0 / cover;
+	min-height: 400px;
+}
+.welcome_text
+{
+	color: #2e2e2e;
+	text-align: center;
+	padding-top: 
+}
+.welcome_text h1
+{
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: 700;
+	padding-top: 150px;
+}
+.welcome_text p
+{
+	text-transform: uppercase;
+}
+/*
+=================
+how it works area
+=================
+*/
+.section_title
+{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.section_title h1
+{
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: 700;
+}
+.section_title p
+{
+	text-transform: uppercase;
+}
+.how_it_works_area
+{
+	text-align: center;
+}
+.how_it_works
+{
+	margin-left: -30px;
+}
+.single_work
+{
+	margin-left: 30px;
+	width: 270px;
+}
+.single_work div.icon_img
+{
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	position: relative;
+}
+.single_work div.icon_img:before
+{
+	position: absolute;
+	content: "";
+	width: 30px;
+	height: 1px;
+	background: #d2d2d2;
+	left:50%;
+	margin-left: -15px;
+	bottom: 0px;
+}
+.single_work h4
+{
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.single_work p
+{
+	
+}
+a.more_projects
+{
+	border: 1px solid #828282;
+	color: #828282;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 30px;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*
+=================
+parallax1 area
+=================
+*/
+.parallax_area
+{
+	position: relative;
+}
+.click_share_bg
+{
+	position: absolute;
+	background: url(../img/paralax.png) no-repeat scroll 0 0 / cover;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.overlay
+{
+	position: absolute;;
+	width: 100%;
+	height: 100%;
+	background: #2e2e2e;
+	opacity: .4;
+	top: 0;
+	left: 0;
+}
+.parallax
+{
+	text-align: center;
+}
+.parallax a,
+.parallax h3
+{
+	position: relative;
+	z-index: 9999;
+	font-size: 28px;
+	font-weight: 700;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #549dc5;
+	text-transform: uppercase;
+}
+.parallax a span
+{
+	color: #549dc5;
+}
+/*
+=================
+project area
+=================
+*/
+.projects ul#filter
+{
+	padding: 0;
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+ul#filter li
+{
+	padding: 10px 20px;
+	margin-right: 15px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+ul#filter li span
+{
+	margin-right: 5px;
+}
+ul#filter li:hover,
+.active
+{
+	color: #549dc5;
+}
+.projects_area .mix
+{
+	float: left;
+	margin: 2px 10px;
+	width: 23%;
+}
+/*
+=================
+parallax2 area
+=================
+*/
+.uniq_bg
+{
+	position: absolute;
+	background: url(../img/paralax2.png) no-repeat scroll 0 0 / cover;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.parallax h3
+{
+	color: #fff;
+	border: none;
+}
+.parallax a.more_projects
+{
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 16px;
+	text-transform: uppercase;
+	border-color: #fff;
+}
+.paralax_area div.overlay
+{
+	opacity: .6;
+}
+.parallax h3 span
+{
+	color: #549dc5;
+}
+/*
+=================
+about area
+=================
+*/
+.about_text
+{
+	width: 780px;
+}
+.about_area h3
+{
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #484848;
+	margin-bottom: 25px;
+}
+.about_text p span
+{
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	display: block;
+	line-height: 30px;
+}
+.blog_list
+{
+	margin-left: -30px;
+	margin-top: 30px;
+}
+.single_post
+{
+	margin-left: 30px;
+	width: 370px;
+}
+.about_text a
+{
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 10px;
+	color: #2e2e2e;
+}
+.meet_the_team
+{
+	margin-top: 75px;
+	border-top: 1px solid #d2d2d2;
+	padding-top: 75px;
+}
+.member_list
+{
+	margin-left: -30px;
+}
+.single_member
+{
+	margin-left: 30px;
+	width: 370px;
+	text-align: center;
+}
+.single_member img
+{
+	width: 100%;
+}
+.single_member h4
+{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.single_member h4 span
+{
+	text-transform: none;
+	display: block;
+	margin-top: 10px;
+	font-size: 16px;
+	color: #549dc5;
+}
+/*
+=================
+testimonial area
+=================
+*/
+.testimonial_area
+{
+	position: relative;
+}
+.testimonial_bg
+{
+	position: absolute;
+	background: url(../img/testimonial.png) no-repeat scroll 0 0 / cover;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.testimonial_area div.overlay
+{
+	opacity: .22;
+}
+.testimonial
+{
+	z-index: 9999;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 185px;
+	color: #fff;
+}
+.testimonial:before
+{
+	content: '“';
+	font-size: 100px;
+	font-weight: 300;
+	top: 20px;
+	left: 120px;
+	position: absolute;
+}
+.testimonial:after
+{
+	content: '”';
+	font-size: 100px;
+	font-weight: 300;
+	top: 20px;
+	right:  120px;
+	position: absolute;
+}
+.single_testimonial
+{
+	text-transform: uppercase;
+}
+.single_testimonial h4
+{
+	text-transform: none;
+	margin-top: 15px;
+	color: #549dc5;
+}
+.testimonial.owl-carousel .owl-controls
+{
+	margin-top: 30px;
+}
+.testimonial.owl-carousel .owl-controls .owl-buttons
+{
+	margin-left: -15px;
+}
+.testimonial.owl-carousel .owl-controls .owl-buttons div
+{
+	width: 29px;
+	height: 29px;
+	border: 1px solid #e8e8e8;
+	text-align: center;
+	padding-top: 1px;
+	display: inline-block;
+	margin-left: 15px;
+}
+/*
+=================
+contact area
+=================
+*/
+.contact
+{
+	padding: 0 185px;
+}
+.address
+{
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.address p i:first-child
+{
+	margin-left: 0;
+}
+.address p i
+{
+	margin-left: 25px;
+	margin-right: 5px;
+	color: #549dc5;
+}
+.contact input[type=email]
+{
+	margin-left: 20px;
+}
+.contact input[type="text"],
+.contact input[type="email"]
+{
+	-moz-border-bottom-colors : none;
+	-moz-border-top-colors : none;
+	-moz-border-left-colors : none;
+	-moz-border-right-colors : none;
+	border-color: -moz-use-text-color -moz-use-text-color #b2b2b2;
+	border-image: none;
+	border-style: none none solid;
+	border-width: medium medium 1px;
+	display: block;
+	margin-bottom: 15px;
+	padding: 11px 0;
+	width: 388px;
+	outline: 0;
+  	border-width: 0 0 2px 0;
+  	border-color: #b2b2b2;
+}
+.contact textarea
+{
+	-moz-border-bottom-colors : none;
+	-moz-border-top-colors : none;
+	-moz-border-left-colors : none;
+	-moz-border-right-colors : none;
+	border-color: -moz-use-text-color -moz-use-text-color #b2b2b2;
+	border-image: none;
+	border-style: none none solid;
+	border-width: medium medium 1px;
+	display: block;
+	margin-bottom: 20px;
+	min-height: 150px;
+	padding: 11px 0;
+	width: 100%;
+	outline: 0;
+  	border-width: 0 0 2px 0;
+  	border-color: #b2b2b2;
+}
+.contact input[type="submit"]
+{
+	background-color: #549dc5;
+	padding: 15px 20px;
+	border: none;
+	font-weight: 700;
+	color: #fff;
+}
+.contact form
+{
+	text-align: center;
+}
+input[type="text"]:hover,input[type="submit"]:focus,input[type="email"]:focus,textarea:focus {
+  border-color: gray
+}
+.address p
+{
+	font-size: 16px;
+}
+/*
+=================
+footer area
+=================
+*/
+.footer_area
+{
+	padding: 25px 0;
+	text-align: center;
+	color: #e8e8e8;
+	background-color: #333333;
+}
